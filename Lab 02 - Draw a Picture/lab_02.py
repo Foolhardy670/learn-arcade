@@ -41,7 +41,7 @@ if __name__ == '__main__':
                                 arcade.color.BONE)
     #  Draw house roof Window
     arcade.draw_circle_outline(400, 600, 50, arcade.color.BRIGHT_CERULEAN, 3)
-    arcade.draw_line(400, 650, 400, 550, arcade.color.WOOD_BROWN, 3)
+    arcade.draw_line(400, 650, 400, 550, arcade.color.WOOD_BROWN, 3) # draw line
 
     arcade.finish_render()
     arcade.run()
