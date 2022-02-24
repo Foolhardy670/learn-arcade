@@ -51,7 +51,7 @@ def main():
                 canteen_drinks = canteen_drinks - 1
                 thirst = 0
             else:
-                print("Error")
+                print("No more drink left in the canteen")
         if thirst > 4:
             print("You are thirsty")
 
