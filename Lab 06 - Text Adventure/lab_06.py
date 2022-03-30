@@ -32,14 +32,14 @@ def main():
            # print(next_room) debug
 
             if next_room is None:
-                print(" You are in the north all. You can’t go that way.")
+                print(" You are in the north hall. You can’t go that way.")
             else:
                 current_room = next_room
 
         elif user_Choice.upper() == "E":
 
             next_room = room_list[current_room].east
-           # print(next_room)  # debug
+           # print(next_room) debug
 
             if next_room is None:
                 print("You can’t go that way.")
