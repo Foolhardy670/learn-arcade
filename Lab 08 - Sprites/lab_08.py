@@ -10,6 +10,8 @@ SCREEN_WIDTH = 900
 SCREEN_HEIGHT = 700
 SCREEN_TITLE = "Sprite Collect Moving and Bouncing Coins Example"
 
+#hello
+
 
 class Coin(arcade.Sprite):
 
